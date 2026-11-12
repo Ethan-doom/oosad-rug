@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\cursoradapter\\cursoradapter\\1.0.0\\cursoradapter-1.0.0\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\cursoradapter\\cursoradapter\\1.0.0\\cursoradapter-1.0.0\\classes.jar": "size 11504 mtime 2026-11-12T09:48:44.970778Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-52e6c5ab70f2c864ad964f38d32f517561edf12fbb33fa8848e7a2a8dd3bce44.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-52e6c5ab70f2c864ad964f38d32f517561edf12fbb33fa8848e7a2a8dd3bce44.abi": "size 3060 mtime 2026-11-12T10:09:50.8692495Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

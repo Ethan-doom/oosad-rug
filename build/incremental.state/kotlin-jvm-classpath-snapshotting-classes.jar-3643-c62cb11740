@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\org\\jetbrains\\compose\\material3\\material3-android\\1.12.0-alpha03\\material3-android-1.12.0-alpha03\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\org\\jetbrains\\compose\\material3\\material3-android\\1.12.0-alpha03\\material3-android-1.12.0-alpha03\\classes.jar": "size 273 mtime 2026-11-12T09:48:44.5977821Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-3643f76a55a817c4fb46efdbdeeb02396df21098c3fe9bbe85a7b3b27ef6b6a9.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-3643f76a55a817c4fb46efdbdeeb02396df21098c3fe9bbe85a7b3b27ef6b6a9.abi": "size 4 mtime 2026-11-12T10:09:48.5374463Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

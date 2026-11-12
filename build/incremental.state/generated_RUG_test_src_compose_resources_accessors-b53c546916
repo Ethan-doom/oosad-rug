@@ -1,0 +1,17 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "%outputs%": "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\generated\\RUG\\test\\src\\compose\\resources\\accessors",
+        "makeAccessorsPublic": "false",
+        "packageName": "\"rug.generated.resources\"",
+        "packagingDir": "\"composeResources/rug.generated.resources/\"",
+        "resClassName": "\"Res\""
+    },
+    "inputFiles": [],
+    "inputFilesState": {},
+    "outputValues": {},
+    "outputFiles": [],
+    "outputFilesState": {},
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

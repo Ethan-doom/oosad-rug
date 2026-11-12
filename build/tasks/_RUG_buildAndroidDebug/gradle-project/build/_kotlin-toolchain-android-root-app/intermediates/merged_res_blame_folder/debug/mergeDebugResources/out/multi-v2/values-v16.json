@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.jetbrains.sample.app.kotlin-toolchain-android-root-app-mergeDebugResources-43:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emmpp\\.gradle\\caches\\9.5.0\\transforms\\c8dd439de68d557f3cf31af2f392231f\\transformed\\appcompat-1.7.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}

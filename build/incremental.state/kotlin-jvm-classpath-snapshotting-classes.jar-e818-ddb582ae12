@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\lifecycle\\lifecycle-process\\2.9.4\\lifecycle-process-2.9.4\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\lifecycle\\lifecycle-process\\2.9.4\\lifecycle-process-2.9.4\\classes.jar": "size 14944 mtime 2026-11-12T09:48:46.0638164Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-e8180e36ba7e29ceef18a7976d82cc3902c61d4ab180d3c5f2d621d5cf966c6a.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-e8180e36ba7e29ceef18a7976d82cc3902c61d4ab180d3c5f2d621d5cf966c6a.abi": "size 2674 mtime 2026-11-12T10:09:55.3385313Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

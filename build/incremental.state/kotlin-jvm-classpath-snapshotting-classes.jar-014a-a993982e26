@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\org\\jetbrains\\compose\\ui\\ui-geometry-android\\1.12.1\\ui-geometry-android-1.12.1\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\org\\jetbrains\\compose\\ui\\ui-geometry-android\\1.12.1\\ui-geometry-android-1.12.1\\classes.jar": "size 277 mtime 2026-11-12T09:48:47.5574558Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-014a6f57237bfaab9e469968de303805edec2c9654429336e60d0433b6028f41.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-014a6f57237bfaab9e469968de303805edec2c9654429336e60d0433b6028f41.abi": "size 4 mtime 2026-11-12T10:09:54.4977772Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\compose\\runtime\\runtime-retain-android\\1.12.1\\runtime-retain-android-1.12.1\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\compose\\runtime\\runtime-retain-android\\1.12.1\\runtime-retain-android-1.12.1\\classes.jar": "size 49136 mtime 2026-11-12T09:48:47.2580579Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-d778d660302ab7a076124ce5ce6b8a31171ba44e3399416b5338d8ca13ef12f0.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-d778d660302ab7a076124ce5ce6b8a31171ba44e3399416b5338d8ca13ef12f0.abi": "size 7882 mtime 2026-11-12T10:09:54.3052925Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

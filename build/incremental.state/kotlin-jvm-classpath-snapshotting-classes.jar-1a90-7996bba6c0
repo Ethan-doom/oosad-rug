@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\savedstate\\savedstate-ktx\\1.4.0\\savedstate-ktx-1.4.0\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\savedstate\\savedstate-ktx\\1.4.0\\savedstate-ktx-1.4.0\\classes.jar": "size 206 mtime 2026-11-12T09:48:47.1264114Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-1a90fc3f7602ab12c96a271ee50f2934c2c76a0072f3f9b65cf065c288adca66.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-1a90fc3f7602ab12c96a271ee50f2934c2c76a0072f3f9b65cf065c288adca66.abi": "size 4 mtime 2026-11-12T10:09:55.5340071Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

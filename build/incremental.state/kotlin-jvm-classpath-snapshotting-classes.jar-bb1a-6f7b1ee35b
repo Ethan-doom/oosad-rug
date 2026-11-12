@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\appcompat\\appcompat-resources\\1.7.1\\appcompat-resources-1.7.1\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\appcompat\\appcompat-resources\\1.7.1\\appcompat-resources-1.7.1\\classes.jar": "size 67902 mtime 2026-11-12T09:48:44.6777096Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-bb1a9bc1cf8de209958f26216653c120a05fd832e3a9a2694896ea72ad3fbdb5.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-bb1a9bc1cf8de209958f26216653c120a05fd832e3a9a2694896ea72ad3fbdb5.abi": "size 13316 mtime 2026-11-12T10:09:50.8253672Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

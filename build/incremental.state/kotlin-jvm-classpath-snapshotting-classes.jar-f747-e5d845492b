@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\drawerlayout\\drawerlayout\\1.0.0\\drawerlayout-1.0.0\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\drawerlayout\\drawerlayout\\1.0.0\\drawerlayout-1.0.0\\classes.jar": "size 31413 mtime 2026-11-12T09:48:44.9837446Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-f7479269827b38e7b81e6f39332eb263273dd910cfcc02c35dab5c72a165c2da.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-f7479269827b38e7b81e6f39332eb263273dd910cfcc02c35dab5c72a165c2da.abi": "size 3187 mtime 2026-11-12T10:09:50.9999008Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

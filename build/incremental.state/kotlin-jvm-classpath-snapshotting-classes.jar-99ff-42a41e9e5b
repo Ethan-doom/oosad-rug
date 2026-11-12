@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\emoji2\\emoji2\\1.4.0\\emoji2-1.4.0\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\emoji2\\emoji2\\1.4.0\\emoji2-1.4.0\\classes.jar": "size 87294 mtime 2026-11-12T09:48:45.2040118Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-99ffecf4f392cd0937d06a1c84079e3eea40578339669713cfd187c1e08662af.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-99ffecf4f392cd0937d06a1c84079e3eea40578339669713cfd187c1e08662af.abi": "size 20022 mtime 2026-11-12T10:09:55.0642641Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

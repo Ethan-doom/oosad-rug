@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_prepareAndroidDebug\\gradle-project\\build\\_kotlin-toolchain-android-root-app\\intermediates\\compile_r_class_jar\\debug\\generateDebugRFile\\R.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_prepareAndroidDebug\\gradle-project\\build\\_kotlin-toolchain-android-root-app\\intermediates\\compile_r_class_jar\\debug\\generateDebugRFile\\R.jar": "size 303 mtime 2026-11-12T10:09:31.1981996Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\R.jar-ebb4a08369292e97a18b41bade0e236f8965df1638e79a5f679f780aa414e011.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\R.jar-ebb4a08369292e97a18b41bade0e236f8965df1638e79a5f679f780aa414e011.abi": "size 182 mtime 2026-11-12T10:09:56.3099347Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

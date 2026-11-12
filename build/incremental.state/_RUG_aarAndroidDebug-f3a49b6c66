@@ -1,0 +1,25 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "android.minSdk": "24",
+        "android.namespace": "com.jetbrains.sample.app.ktc.mangled.p144570114",
+        "android.targetSdk": "37",
+        "outputPath": "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_aarAndroidDebug\\RUG-jvm.aar",
+        "requiredPackagingDirs": "[[]]"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_jarAndroidDebug\\RUG-jvm.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_jarAndroidDebug\\RUG-jvm.jar": "size 54545 mtime 2026-11-12T13:58:27.9123675Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_aarAndroidDebug\\RUG-jvm.aar"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_aarAndroidDebug\\RUG-jvm.aar": "size 52169 mtime 2026-11-12T13:58:27.9343082Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

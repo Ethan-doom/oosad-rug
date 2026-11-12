@@ -1,0 +1,195 @@
+Kotlin Toolchain version 0.13.0 (abc7a5f, 2026-10-01)
+running on Windows 10 10.0 jvm arch amd64
+
+00:22.357 DEBUG                           MockProjectInitializer$DebugLogger Loaded text for file C:\Users\emmpp\IdeaProjects\RUG\module.yaml
+00:22.958 DEBUG                           AmperBackend              Selected tasks to compile: :RUG:aarAndroidDebug :RUG:buildAndroidDebug :RUG:compileAndroidDebug :RUG:compileAndroidTestDebug :RUG:jarAndroidDebug
+00:23.036 DEBUG :RUG:resolveDependenciesAndroid ResolveExternalDependenciesTask$Companion resolve dependencies RUG -- main -- androidx.activity:activity-compose:1.13.0 androidx.appcompat:appcompat:1.7.1 org.jetbrains.compose.components:components-resources:1.12.1 org.jetbrains.compose.foundation:foundation:1.12.1 org.jetbrains.compose.material3:material3:1.12.0-alpha03 org.jetbrains.compose.runtime:runtime:1.12.1 org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.4.20 org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.4.20 org.jetbrains.kotlin:kotlin-stdlib:2.4.20 -- resolvePlatform=androidJvm nativeTarget=null wasmTarget=null
+00:23.095 DEBUG generated\RUG\test\preparedComposeResources IncrementalCache          [inc] 'generated\RUG\test\preparedComposeResources' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\generated_RUG_test_preparedComposeResources-951038eca6'
+00:23.105 DEBUG generated\RUG\main\src\compose\resources\commonResClass IncrementalCache          [inc] 'generated\RUG\main\src\compose\resources\commonResClass' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\generated_RUG_main_src_compose_resources_commonRes-3735fa90d9'
+00:23.134 DEBUG :RUG:resolveDependenciesAndroidTest ResolveExternalDependenciesTask$Companion resolve dependencies RUG -- test -- androidx.activity:activity-compose:1.13.0 androidx.appcompat:appcompat:1.7.1 org.jetbrains.compose.components:components-resources:1.12.1 org.jetbrains.compose.foundation:foundation:1.12.1 org.jetbrains.compose.material3:material3:1.12.0-alpha03 org.jetbrains.compose.runtime:runtime:1.12.1 org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.4.20 org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.4.20 org.jetbrains.kotlin:kotlin-stdlib:2.4.20 org.jetbrains.kotlin:kotlin-test-junit:2.4.20 -- resolvePlatform=androidJvm nativeTarget=null wasmTarget=null
+00:23.202 DEBUG :RUG:resolveDependenciesAndroid IncrementalCache          [inc] 'RUG:android:main' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\RUG_android_main-c0fbf706c0'
+00:23.204 DEBUG :RUG:resolveDependenciesAndroidTest IncrementalCache          [inc] 'RUG:android:test' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\RUG_android_test-06692492bc'
+00:23.272 DEBUG :RUG:resolveDependenciesAndroidTest ResolveExternalDependenciesTask$Companion resolve dependencies RUG -- test -- androidx.activity:activity-compose:1.13.0 androidx.appcompat:appcompat:1.7.1 org.jetbrains.compose.components:components-resources:1.12.1 org.jetbrains.compose.foundation:foundation:1.12.1 org.jetbrains.compose.material3:material3:1.12.0-alpha03 org.jetbrains.compose.runtime:runtime:1.12.1 org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.4.20 org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.4.20 org.jetbrains.kotlin:kotlin-stdlib:2.4.20 org.jetbrains.kotlin:kotlin-test-junit:2.4.20 -- resolvePlatform=ANDROID nativeTarget=null
+wasmTarget=null
+https://repo1.maven.org/maven2 https://maven.google.com resolved to:
+  .m2.cache\androidx\activity\activity-compose\1.13.0\activity-compose-1.13.0.aar
+  .m2.cache\androidx\appcompat\appcompat\1.7.1\appcompat-1.7.1.aar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib\2.4.20\kotlin-stdlib-2.4.20.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib-jdk7\2.4.20\kotlin-stdlib-jdk7-2.4.20.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib-jdk8\2.4.20\kotlin-stdlib-jdk8-2.4.20.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-test-junit\2.4.20\kotlin-test-junit-2.4.20.jar
+  .m2.cache\org\jetbrains\compose\foundation\foundation-android\1.12.1\foundation-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\material3\material3-android\1.12.0-alpha03\material3-android-1.12.0-alpha03.aar
+  .m2.cache\androidx\activity\activity\1.13.0\activity-1.13.0.aar
+  .m2.cache\androidx\core\core-ktx\1.18.0\core-ktx-1.18.0.aar
+  .m2.cache\androidx\appcompat\appcompat-resources\1.7.1\appcompat-resources-1.7.1.aar
+  .m2.cache\androidx\core\core\1.18.0\core-1.18.0.aar
+  .m2.cache\androidx\cursoradapter\cursoradapter\1.0.0\cursoradapter-1.0.0.aar
+  .m2.cache\androidx\drawerlayout\drawerlayout\1.0.0\drawerlayout-1.0.0.aar
+  .m2.cache\androidx\fragment\fragment\1.5.4\fragment-1.5.4.aar
+  .m2.cache\org\jetbrains\annotations\23.0.0\annotations-23.0.0.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-test\2.4.20\kotlin-test-2.4.20.jar
+  .m2.cache\junit\junit\4.13.2\junit-4.13.2.jar
+  .m2.cache\org\jetbrains\compose\runtime\runtime-android\1.12.1\runtime-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\components\components-resources-android\1.12.1\components-resources-android-1.12.1.aar
+  .m2.cache\androidx\annotation\annotation-experimental\1.4.1\annotation-experimental-1.4.1.aar
+  .m2.cache\androidx\core\core-viewtree\1.0.0\core-viewtree-1.0.0.aar
+  .m2.cache\androidx\compose\runtime\runtime-android\1.12.1\runtime-android-1.12.1.aar
+  .m2.cache\androidx\compose\runtime\runtime-saveable-android\1.12.1\runtime-saveable-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-android\1.12.1\ui-android-1.12.1.aar
+  .m2.cache\androidx\lifecycle\lifecycle-viewmodel-android\2.9.4\lifecycle-viewmodel-android-2.9.4.aar
+  .m2.cache\androidx\navigationevent\navigationevent-compose-android\1.0.0\navigationevent-compose-android-1.0.0.aar
+  .m2.cache\androidx\annotation\annotation-jvm\1.9.1\annotation-jvm-1.9.1.jar
+  .m2.cache\androidx\vectordrawable\vectordrawable\1.1.0\vectordrawable-1.1.0.aar
+  .m2.cache\androidx\vectordrawable\vectordrawable-animated\1.1.0\vectordrawable-animated-1.1.0.aar
+  .m2.cache\androidx\versionedparcelable\versionedparcelable\1.1.1\versionedparcelable-1.1.1.aar
+  .m2.cache\com\google\guava\listenablefuture\1.0\listenablefuture-1.0.jar
+  .m2.cache\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar
+  .m2.cache\androidx\customview\customview\1.0.0\customview-1.0.0.aar
+  .m2.cache\androidx\lifecycle\lifecycle-livedata-core\2.9.4\lifecycle-livedata-core-2.9.4.aar
+  .m2.cache\androidx\loader\loader\1.0.0\loader-1.0.0.aar
+  .m2.cache\androidx\viewpager\viewpager\1.0.0\viewpager-1.0.0.aar
+  .m2.cache\androidx\savedstate\savedstate-android\1.4.0\savedstate-android-1.4.0.aar
+  .m2.cache\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  .m2.cache\androidx\collection\collection-jvm\1.5.0\collection-jvm-1.5.0.jar
+  .m2.cache\androidx\compose\foundation\foundation-android\1.12.1\foundation-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\animation\animation-android\1.12.1\animation-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-android\1.12.1\ui-android-1.12.1.aar
+  .m2.cache\androidx\compose\material3\material3-android\1.5.0-alpha22\material3-android-1.5.0-alpha22.aar
+  .m2.cache\androidx\graphics\graphics-shapes-android\1.1.0\graphics-shapes-android-1.1.0.aar
+  .m2.cache\org\jetbrains\compose\foundation\foundation-layout-android\1.12.1\foundation-layout-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\material\material-ripple-android\1.12.0-beta01\material-ripple-android-1.12.0-beta01.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-text-android\1.12.1\ui-text-android-1.12.1.aar
+  .m2.cache\androidx\lifecycle\lifecycle-common-jvm\2.9.4\lifecycle-common-jvm-2.9.4.jar
+  .m2.cache\androidx\lifecycle\lifecycle-runtime-android\2.9.4\lifecycle-runtime-android-2.9.4.aar
+  .m2.cache\androidx\lifecycle\lifecycle-viewmodel-savedstate-android\2.9.4\lifecycle-viewmodel-savedstate-android-2.9.4.aar
+  .m2.cache\androidx\navigationevent\navigationevent-android\1.0.0\navigationevent-android-1.0.0.aar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-coroutines-android\1.9.0\kotlinx-coroutines-android-1.9.0.jar
+  .m2.cache\androidx\interpolator\interpolator\1.0.0\interpolator-1.0.0.aar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.9.0\kotlinx-coroutines-core-jvm-1.9.0.jar
+  .m2.cache\androidx\lifecycle\lifecycle-livedata\2.9.4\lifecycle-livedata-2.9.4.aar
+  .m2.cache\androidx\lifecycle\lifecycle-viewmodel\2.9.4\lifecycle-viewmodel-2.9.4.aar
+  .m2.cache\androidx\arch\core\core-common\2.2.0\core-common-2.2.0.jar
+  .m2.cache\androidx\compose\runtime\runtime-annotation-android\1.12.1\runtime-annotation-android-1.12.1.aar
+  .m2.cache\androidx\savedstate\savedstate-compose-android\1.4.0\savedstate-compose-android-1.4.0.aar
+  .m2.cache\androidx\compose\runtime\runtime-retain-android\1.12.1\runtime-retain-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-geometry-android\1.12.1\ui-geometry-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-graphics-android\1.12.1\ui-graphics-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-text-android\1.12.1\ui-text-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-unit-android\1.12.1\ui-unit-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-util-android\1.12.1\ui-util-android-1.12.1.aar
+  .m2.cache\androidx\lifecycle\lifecycle-runtime-compose-android\2.9.4\lifecycle-runtime-compose-android-2.9.4.aar
+  .m2.cache\androidx\arch\core\core-runtime\2.2.0\core-runtime-2.2.0.aar
+  .m2.cache\androidx\lifecycle\lifecycle-livedata-core-ktx\2.9.4\lifecycle-livedata-core-ktx-2.9.4.aar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-serialization-core-jvm\1.7.3\kotlinx-serialization-core-jvm-1.7.3.jar
+  .m2.cache\androidx\compose\animation\animation-android\1.12.1\animation-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\animation\animation-core-android\1.12.1\animation-core-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-geometry-android\1.12.1\ui-geometry-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\runtime\runtime-saveable-android\1.12.1\runtime-saveable-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-graphics-android\1.12.1\ui-graphics-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-unit-android\1.12.1\ui-unit-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-util-android\1.12.1\ui-util-android-1.12.1.aar
+  .m2.cache\androidx\compose\foundation\foundation-layout-android\1.12.1\foundation-layout-android-1.12.1.aar
+  .m2.cache\androidx\compose\material\material-ripple-android\1.12.0-beta01\material-ripple-android-1.12.0-beta01.aar
+  .m2.cache\androidx\lifecycle\lifecycle-runtime-ktx-android\2.9.4\lifecycle-runtime-ktx-android-2.9.4.aar
+  .m2.cache\androidx\compose\animation\animation-core-android\1.12.1\animation-core-android-1.12.1.aar
+00:23.289 DEBUG :RUG:resolveDependenciesAndroid ResolveExternalDependenciesTask$Companion resolve dependencies RUG -- main -- androidx.activity:activity-compose:1.13.0 androidx.appcompat:appcompat:1.7.1 org.jetbrains.compose.components:components-resources:1.12.1 org.jetbrains.compose.foundation:foundation:1.12.1 org.jetbrains.compose.material3:material3:1.12.0-alpha03 org.jetbrains.compose.runtime:runtime:1.12.1 org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.4.20 org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.4.20 org.jetbrains.kotlin:kotlin-stdlib:2.4.20 -- resolvePlatform=ANDROID nativeTarget=null
+wasmTarget=null
+https://repo1.maven.org/maven2 https://maven.google.com resolved to:
+  .m2.cache\androidx\activity\activity-compose\1.13.0\activity-compose-1.13.0.aar
+  .m2.cache\androidx\appcompat\appcompat\1.7.1\appcompat-1.7.1.aar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib\2.4.20\kotlin-stdlib-2.4.20.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib-jdk7\2.4.20\kotlin-stdlib-jdk7-2.4.20.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib-jdk8\2.4.20\kotlin-stdlib-jdk8-2.4.20.jar
+  .m2.cache\org\jetbrains\compose\foundation\foundation-android\1.12.1\foundation-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\material3\material3-android\1.12.0-alpha03\material3-android-1.12.0-alpha03.aar
+  .m2.cache\androidx\activity\activity\1.13.0\activity-1.13.0.aar
+  .m2.cache\androidx\core\core-ktx\1.18.0\core-ktx-1.18.0.aar
+  .m2.cache\androidx\appcompat\appcompat-resources\1.7.1\appcompat-resources-1.7.1.aar
+  .m2.cache\androidx\core\core\1.18.0\core-1.18.0.aar
+  .m2.cache\androidx\cursoradapter\cursoradapter\1.0.0\cursoradapter-1.0.0.aar
+  .m2.cache\androidx\drawerlayout\drawerlayout\1.0.0\drawerlayout-1.0.0.aar
+  .m2.cache\androidx\fragment\fragment\1.5.4\fragment-1.5.4.aar
+  .m2.cache\org\jetbrains\annotations\23.0.0\annotations-23.0.0.jar
+  .m2.cache\org\jetbrains\compose\runtime\runtime-android\1.12.1\runtime-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\components\components-resources-android\1.12.1\components-resources-android-1.12.1.aar
+  .m2.cache\androidx\annotation\annotation-experimental\1.4.1\annotation-experimental-1.4.1.aar
+  .m2.cache\androidx\core\core-viewtree\1.0.0\core-viewtree-1.0.0.aar
+  .m2.cache\androidx\compose\runtime\runtime-android\1.12.1\runtime-android-1.12.1.aar
+  .m2.cache\androidx\compose\runtime\runtime-saveable-android\1.12.1\runtime-saveable-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-android\1.12.1\ui-android-1.12.1.aar
+  .m2.cache\androidx\lifecycle\lifecycle-viewmodel-android\2.9.4\lifecycle-viewmodel-android-2.9.4.aar
+  .m2.cache\androidx\navigationevent\navigationevent-compose-android\1.0.0\navigationevent-compose-android-1.0.0.aar
+  .m2.cache\androidx\annotation\annotation-jvm\1.9.1\annotation-jvm-1.9.1.jar
+  .m2.cache\androidx\vectordrawable\vectordrawable\1.1.0\vectordrawable-1.1.0.aar
+  .m2.cache\androidx\vectordrawable\vectordrawable-animated\1.1.0\vectordrawable-animated-1.1.0.aar
+  .m2.cache\androidx\versionedparcelable\versionedparcelable\1.1.1\versionedparcelable-1.1.1.aar
+  .m2.cache\com\google\guava\listenablefuture\1.0\listenablefuture-1.0.jar
+  .m2.cache\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar
+  .m2.cache\androidx\customview\customview\1.0.0\customview-1.0.0.aar
+  .m2.cache\androidx\lifecycle\lifecycle-livedata-core\2.9.4\lifecycle-livedata-core-2.9.4.aar
+  .m2.cache\androidx\loader\loader\1.0.0\loader-1.0.0.aar
+  .m2.cache\androidx\viewpager\viewpager\1.0.0\viewpager-1.0.0.aar
+  .m2.cache\androidx\savedstate\savedstate-android\1.4.0\savedstate-android-1.4.0.aar
+  .m2.cache\androidx\collection\collection-jvm\1.5.0\collection-jvm-1.5.0.jar
+  .m2.cache\androidx\compose\foundation\foundation-android\1.12.1\foundation-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\animation\animation-android\1.12.1\animation-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-android\1.12.1\ui-android-1.12.1.aar
+  .m2.cache\androidx\compose\material3\material3-android\1.5.0-alpha22\material3-android-1.5.0-alpha22.aar
+  .m2.cache\androidx\graphics\graphics-shapes-android\1.1.0\graphics-shapes-android-1.1.0.aar
+  .m2.cache\org\jetbrains\compose\foundation\foundation-layout-android\1.12.1\foundation-layout-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\material\material-ripple-android\1.12.0-beta01\material-ripple-android-1.12.0-beta01.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-text-android\1.12.1\ui-text-android-1.12.1.aar
+  .m2.cache\androidx\lifecycle\lifecycle-common-jvm\2.9.4\lifecycle-common-jvm-2.9.4.jar
+  .m2.cache\androidx\lifecycle\lifecycle-runtime-android\2.9.4\lifecycle-runtime-android-2.9.4.aar
+  .m2.cache\androidx\lifecycle\lifecycle-viewmodel-savedstate-android\2.9.4\lifecycle-viewmodel-savedstate-android-2.9.4.aar
+  .m2.cache\androidx\navigationevent\navigationevent-android\1.0.0\navigationevent-android-1.0.0.aar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-coroutines-android\1.9.0\kotlinx-coroutines-android-1.9.0.jar
+  .m2.cache\androidx\interpolator\interpolator\1.0.0\interpolator-1.0.0.aar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.9.0\kotlinx-coroutines-core-jvm-1.9.0.jar
+  .m2.cache\androidx\lifecycle\lifecycle-livedata\2.9.4\lifecycle-livedata-2.9.4.aar
+  .m2.cache\androidx\lifecycle\lifecycle-viewmodel\2.9.4\lifecycle-viewmodel-2.9.4.aar
+  .m2.cache\androidx\arch\core\core-common\2.2.0\core-common-2.2.0.jar
+  .m2.cache\androidx\compose\runtime\runtime-annotation-android\1.12.1\runtime-annotation-android-1.12.1.aar
+  .m2.cache\androidx\savedstate\savedstate-compose-android\1.4.0\savedstate-compose-android-1.4.0.aar
+  .m2.cache\androidx\compose\runtime\runtime-retain-android\1.12.1\runtime-retain-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-geometry-android\1.12.1\ui-geometry-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-graphics-android\1.12.1\ui-graphics-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-text-android\1.12.1\ui-text-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-unit-android\1.12.1\ui-unit-android-1.12.1.aar
+  .m2.cache\androidx\compose\ui\ui-util-android\1.12.1\ui-util-android-1.12.1.aar
+  .m2.cache\androidx\lifecycle\lifecycle-runtime-compose-android\2.9.4\lifecycle-runtime-compose-android-2.9.4.aar
+  .m2.cache\androidx\arch\core\core-runtime\2.2.0\core-runtime-2.2.0.aar
+  .m2.cache\androidx\lifecycle\lifecycle-livedata-core-ktx\2.9.4\lifecycle-livedata-core-ktx-2.9.4.aar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-serialization-core-jvm\1.7.3\kotlinx-serialization-core-jvm-1.7.3.jar
+  .m2.cache\androidx\compose\animation\animation-android\1.12.1\animation-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\animation\animation-core-android\1.12.1\animation-core-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-geometry-android\1.12.1\ui-geometry-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\runtime\runtime-saveable-android\1.12.1\runtime-saveable-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-graphics-android\1.12.1\ui-graphics-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-unit-android\1.12.1\ui-unit-android-1.12.1.aar
+  .m2.cache\org\jetbrains\compose\ui\ui-util-android\1.12.1\ui-util-android-1.12.1.aar
+  .m2.cache\androidx\compose\foundation\foundation-layout-android\1.12.1\foundation-layout-android-1.12.1.aar
+  .m2.cache\androidx\compose\material\material-ripple-android\1.12.0-beta01\material-ripple-android-1.12.0-beta01.aar
+  .m2.cache\androidx\lifecycle\lifecycle-runtime-ktx-android\2.9.4\lifecycle-runtime-ktx-android-2.9.4.aar
+  .m2.cache\androidx\compose\animation\animation-core-android\1.12.1\animation-core-android-1.12.1.aar
+00:23.951 DEBUG generated\RUG\main\preparedComposeResources IncrementalCache          [inc] 'generated\RUG\main\preparedComposeResources' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\generated_RUG_main_preparedComposeResources-89a2e6951e'
+00:23.956 DEBUG generated\RUG\test\src\compose\resources\accessors IncrementalCache          [inc] 'generated\RUG\test\src\compose\resources\accessors' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\generated_RUG_test_src_compose_resources_accessors-b53c546916'
+00:23.995 DEBUG artifacts\MergedPreparedComposeResourcesDirArtifact\RUGandroid IncrementalCache          [inc] 'artifacts\MergedPreparedComposeResourcesDirArtifact\RUGandroid' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\artifacts_MergedPreparedComposeResourcesDirArtifac-167873379a'
+00:24.000 DEBUG generated\RUG\main\src\compose\resources\accessors IncrementalCache          [inc] 'generated\RUG\main\src\compose\resources\accessors' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\generated_RUG_main_src_compose_resources_accessors-42d5eede32'
+00:24.015 DEBUG generated\RUG\main\src\compose\resources\collectors IncrementalCache          [inc] 'generated\RUG\main\src\compose\resources\collectors' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\generated_RUG_main_src_compose_resources_collector-6ace55efd5'
+00:24.022 DEBUG :RUG:transformDependenciesAndroid IncrementalCache          [inc] ':RUG:transformDependenciesAndroid' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\_RUG_transformDependenciesAndroid-32d9dddc85'
+00:24.047 DEBUG :RUG:transformDependenciesAndroidTest IncrementalCache          [inc] ':RUG:transformDependenciesAndroidTest' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\_RUG_transformDependenciesAndroidTest-0191c522bb'
+00:24.051 DEBUG :RUG:prepareAndroidDebug  JdkProvider               JAVA_HOME is not set (or empty). The Kotlin Toolchain will provision a JDK instead.
+00:24.129 DEBUG :RUG:prepareAndroidDebug  IncrementalCache          [inc] 'jdk-provisioning_{"majorVersion":25}' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\jdk-provisioning___majorVersion__25_-a1d432fb5a'
+00:24.159 DEBUG :RUG:prepareAndroidDebug  IncrementalCache          [inc] ':RUG:prepareAndroidDebug' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\_RUG_prepareAndroidDebug-d9785b8cb7'
+00:24.173 DEBUG :RUG:compileAndroidDebug  JvmCompileTask            compile RUG -- main
+00:24.186 DEBUG :RUG:compileAndroidDebug  JdkProvider               JAVA_HOME is not set (or empty). The Kotlin Toolchain will provision a JDK instead.
+00:24.211 DEBUG :RUG:compileAndroidDebug  IncrementalCache          [inc] ':RUG:compileAndroidDebug' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\_RUG_compileAndroidDebug-10f0d550b0'
+00:24.216 DEBUG :RUG:compileAndroidTestDebug JvmCompileTask            compile RUG -- test
+00:24.216 DEBUG :RUG:compileAndroidTestDebug JdkProvider               JAVA_HOME is not set (or empty). The Kotlin Toolchain will provision a JDK instead.
+00:24.232 DEBUG :RUG:jarAndroidDebug      IncrementalCache          [inc] ':RUG:jarAndroidDebug' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\_RUG_jarAndroidDebug-c1c331eaf1'
+00:24.238 DEBUG :RUG:compileAndroidTestDebug IncrementalCache          [inc] ':RUG:compileAndroidTestDebug' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\_RUG_compileAndroidTestDebug-e734ab3fe5'
+00:24.240 DEBUG :RUG:aarAndroidDebug      IncrementalCache          [inc] ':RUG:aarAndroidDebug' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\_RUG_aarAndroidDebug-f3a49b6c66'
+00:24.246 DEBUG :RUG:buildAndroidDebug    JdkProvider               JAVA_HOME is not set (or empty). The Kotlin Toolchain will provision a JDK instead.
+00:24.259 DEBUG :RUG:buildAndroidDebug    IncrementalCache          [inc] ':RUG:buildAndroidDebug' is up-to-date according to state file at 'C:\Users\emmpp\IdeaProjects\RUG\build\incremental.state\_RUG_buildAndroidDebug-485b7a30fc'

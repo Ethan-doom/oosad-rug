@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\compose\\animation\\animation-android\\1.12.1\\animation-android-1.12.1\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\compose\\animation\\animation-android\\1.12.1\\animation-android-1.12.1\\classes.jar": "size 665186 mtime 2026-11-12T09:48:47.5328898Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-9ea6521e2b9fdcb4647bdcba4c4a8b32d830c850f98e6c0bcefffb81907bc00c.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-9ea6521e2b9fdcb4647bdcba4c4a8b32d830c850f98e6c0bcefffb81907bc00c.abi": "size 78400 mtime 2026-11-12T10:09:54.5735753Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\lifecycle\\lifecycle-viewmodel-ktx\\2.9.4\\lifecycle-viewmodel-ktx-2.9.4\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\lifecycle\\lifecycle-viewmodel-ktx\\2.9.4\\lifecycle-viewmodel-ktx-2.9.4\\classes.jar": "size 222 mtime 2026-11-12T09:48:47.101477Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-0941563006b5911cb23e3bbd732607a2ed4c0e7bc15530e0b6ce4c3b77a8172d.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-0941563006b5911cb23e3bbd732607a2ed4c0e7bc15530e0b6ce4c3b77a8172d.abi": "size 4 mtime 2026-11-12T10:09:55.536003Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

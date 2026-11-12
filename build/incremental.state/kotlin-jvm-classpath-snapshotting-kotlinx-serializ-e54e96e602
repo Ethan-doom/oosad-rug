@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\org\\jetbrains\\kotlinx\\kotlinx-serialization-core-jvm\\1.7.3\\kotlinx-serialization-core-jvm-1.7.3.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\org\\jetbrains\\kotlinx\\kotlinx-serialization-core-jvm\\1.7.3\\kotlinx-serialization-core-jvm-1.7.3.jar": "size 390987 mtime 2026-11-12T09:48:39.8328097Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\kotlinx-serialization-core-jvm-1.7.3.jar-49655efb9a0e239cf9bd22242099f4b51112872c0b6d84424ca9ec195dfbb578.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\kotlinx-serialization-core-jvm-1.7.3.jar-49655efb9a0e239cf9bd22242099f4b51112872c0b6d84424ca9ec195dfbb578.abi": "size 74143 mtime 2026-11-12T10:09:56.3049471Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

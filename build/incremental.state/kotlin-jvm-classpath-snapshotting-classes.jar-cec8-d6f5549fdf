@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\navigationevent\\navigationevent-android\\1.0.0\\navigationevent-android-1.0.0\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\navigationevent\\navigationevent-android\\1.0.0\\navigationevent-android-1.0.0\\classes.jar": "size 44461 mtime 2026-11-12T09:48:46.9537439Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-cec8cea5f2f5fb577a0fc59a1fba2dc341dea7e96f654f9ba18ea031d47dbc84.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-cec8cea5f2f5fb577a0fc59a1fba2dc341dea7e96f654f9ba18ea031d47dbc84.abi": "size 9331 mtime 2026-11-12T10:09:53.8435279Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\annotation\\annotation-experimental\\1.4.1\\annotation-experimental-1.4.1\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\annotation\\annotation-experimental\\1.4.1\\annotation-experimental-1.4.1\\classes.jar": "size 6304 mtime 2026-11-12T09:48:45.2768499Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-7f537959ae78cdd5d7791501a1d8301252c93d922b266aad59159be01b465339.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-7f537959ae78cdd5d7791501a1d8301252c93d922b266aad59159be01b465339.abi": "size 1686 mtime 2026-11-12T10:09:51.1106045Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

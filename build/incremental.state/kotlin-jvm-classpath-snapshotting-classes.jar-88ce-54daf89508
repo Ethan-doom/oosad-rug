@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\compose\\material\\material-ripple-android\\1.12.0-beta01\\material-ripple-android-1.12.0-beta01\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\compose\\material\\material-ripple-android\\1.12.0-beta01\\material-ripple-android-1.12.0-beta01\\classes.jar": "size 94769 mtime 2026-11-12T09:48:47.686687Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-88cecd56e4b43ee2a3a99ee45f5bf8462a2156beb27734e9485328b6277e4b21.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-88cecd56e4b43ee2a3a99ee45f5bf8462a2156beb27734e9485328b6277e4b21.abi": "size 10568 mtime 2026-11-12T10:09:54.7880021Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

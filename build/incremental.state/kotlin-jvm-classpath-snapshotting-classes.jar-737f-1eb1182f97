@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\activity\\activity\\1.13.0\\activity-1.13.0\\classes.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\androidx\\activity\\activity\\1.13.0\\activity-1.13.0\\classes.jar": "size 220190 mtime 2026-11-12T09:48:44.6267719Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-737f520a71123b92ec74a8384f73eb684faba68e488a5fdd8e70061cf8456c8a.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\classes.jar-737f520a71123b92ec74a8384f73eb684faba68e488a5fdd8e70061cf8456c8a.abi": "size 43249 mtime 2026-11-12T10:09:49.7641667Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

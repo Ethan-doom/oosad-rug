@@ -1,0 +1,21 @@
+{
+    "codeVersion": "0.13.0",
+    "inputValues": {
+        "kotlinVersion": "2.4.20"
+    },
+    "inputFiles": [
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\org\\jetbrains\\kotlinx\\kotlinx-coroutines-android\\1.9.0\\kotlinx-coroutines-android-1.9.0.jar"
+    ],
+    "inputFilesState": {
+        "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\org\\jetbrains\\kotlinx\\kotlinx-coroutines-android\\1.9.0\\kotlinx-coroutines-android-1.9.0.jar": "size 19247 mtime 2026-11-12T09:48:39.7460394Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\kotlinx-coroutines-android-1.9.0.jar-b1f6a8df4ac78ac6ed3ced14bb55bfe142762fd7afed2f71a20c68ba158bdf0c.abi"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\kotlinx-coroutines-android-1.9.0.jar-b1f6a8df4ac78ac6ed3ced14bb55bfe142762fd7afed2f71a20c68ba158bdf0c.abi": "size 2261 mtime 2026-11-12T10:09:56.0266903Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}
