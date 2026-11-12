@@ -11,10 +11,10 @@
     },
     "outputValues": {},
     "outputFiles": [
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\kotlinx-coroutines-core-jvm-1.9.0.jar-cd0ebfe90ef277f6b93f9abcacd539dca3dc54ecff5c4faa9fcca05127d2d7f3.abi"
+        "C:\\Users\\emmpp\\IdeaProjects\\oosad-rug\\build\\ic-cache\\classpath-snapshots\\kotlinx-coroutines-core-jvm-1.9.0.jar-cd0ebfe90ef277f6b93f9abcacd539dca3dc54ecff5c4faa9fcca05127d2d7f3.abi"
     ],
     "outputFilesState": {
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\kotlinx-coroutines-core-jvm-1.9.0.jar-cd0ebfe90ef277f6b93f9abcacd539dca3dc54ecff5c4faa9fcca05127d2d7f3.abi": "size 191017 mtime 2026-11-12T10:09:56.3707711Z"
+        "C:\\Users\\emmpp\\IdeaProjects\\oosad-rug\\build\\ic-cache\\classpath-snapshots\\kotlinx-coroutines-core-jvm-1.9.0.jar-cd0ebfe90ef277f6b93f9abcacd539dca3dc54ecff5c4faa9fcca05127d2d7f3.abi": "size 191017 mtime 2026-11-12T16:44:43.9475405Z"
     },
     "excludedOutputFiles": [],
     "dynamicInputs": {}

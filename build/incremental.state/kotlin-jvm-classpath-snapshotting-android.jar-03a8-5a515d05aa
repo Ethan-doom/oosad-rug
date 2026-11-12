@@ -7,14 +7,14 @@
         "C:\\Users\\emmpp\\AppData\\Local\\Android\\Sdk\\platforms\\android-37.0\\android.jar"
     ],
     "inputFilesState": {
-        "C:\\Users\\emmpp\\AppData\\Local\\Android\\Sdk\\platforms\\android-37.0\\android.jar": "size 43044472 mtime 2026-10-22T15:22:52.8116112Z"
+        "C:\\Users\\emmpp\\AppData\\Local\\Android\\Sdk\\platforms\\android-37.0\\android.jar": "size 43044472 mtime 2026-11-12T17:47:44.3194246Z"
     },
     "outputValues": {},
     "outputFiles": [
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\android.jar-03a858eb0f3d6684c276626de3b8e7d6179bbd365fdb49918d65380e2d8aa03f.abi"
+        "C:\\Users\\emmpp\\IdeaProjects\\oosad-rug\\build\\ic-cache\\classpath-snapshots\\android.jar-03a858eb0f3d6684c276626de3b8e7d6179bbd365fdb49918d65380e2d8aa03f.abi"
     ],
     "outputFilesState": {
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\android.jar-03a858eb0f3d6684c276626de3b8e7d6179bbd365fdb49918d65380e2d8aa03f.abi": "size 1656614 mtime 2026-11-12T10:09:50.7485719Z"
+        "C:\\Users\\emmpp\\IdeaProjects\\oosad-rug\\build\\ic-cache\\classpath-snapshots\\android.jar-03a858eb0f3d6684c276626de3b8e7d6179bbd365fdb49918d65380e2d8aa03f.abi": "size 1656614 mtime 2026-11-12T18:04:54.6663391Z"
     },
     "excludedOutputFiles": [],
     "dynamicInputs": {}

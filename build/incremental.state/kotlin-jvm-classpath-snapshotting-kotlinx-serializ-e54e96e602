@@ -11,10 +11,10 @@
     },
     "outputValues": {},
     "outputFiles": [
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\kotlinx-serialization-core-jvm-1.7.3.jar-49655efb9a0e239cf9bd22242099f4b51112872c0b6d84424ca9ec195dfbb578.abi"
+        "C:\\Users\\emmpp\\IdeaProjects\\oosad-rug\\build\\ic-cache\\classpath-snapshots\\kotlinx-serialization-core-jvm-1.7.3.jar-49655efb9a0e239cf9bd22242099f4b51112872c0b6d84424ca9ec195dfbb578.abi"
     ],
     "outputFilesState": {
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\ic-cache\\classpath-snapshots\\kotlinx-serialization-core-jvm-1.7.3.jar-49655efb9a0e239cf9bd22242099f4b51112872c0b6d84424ca9ec195dfbb578.abi": "size 74143 mtime 2026-11-12T10:09:56.3049471Z"
+        "C:\\Users\\emmpp\\IdeaProjects\\oosad-rug\\build\\ic-cache\\classpath-snapshots\\kotlinx-serialization-core-jvm-1.7.3.jar-49655efb9a0e239cf9bd22242099f4b51112872c0b6d84424ca9ec195dfbb578.abi": "size 74143 mtime 2026-11-12T16:44:43.9545218Z"
     },
     "excludedOutputFiles": [],
     "dynamicInputs": {}
