@@ -9,29 +9,32 @@
         "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output"
     ],
     "inputFilesState": {
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\META-INF\\RUG.kotlin_module": "size 68 mtime 2026-11-12T14:37:51.7799242Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\AppPage.class": "size 2081 mtime 2026-11-12T14:37:51.7343041Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\AttendanceStatus.class": "size 2220 mtime 2026-11-12T14:37:51.7251959Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\AuthMode.class": "size 1777 mtime 2026-11-12T14:37:51.728799Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\AvailabilityStatus.class": "size 2238 mtime 2026-11-12T14:37:51.7152556Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\Circle.class": "size 2757 mtime 2026-11-12T14:37:51.745019Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\ComposableSingletons$MainActivityKt.class": "size 25561 mtime 2026-11-12T14:37:51.7609774Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\DateOption.class": "size 3671 mtime 2026-11-12T14:37:51.7409614Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\Gathering.class": "size 4620 mtime 2026-11-12T14:37:51.749009Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\GatheringStatus.class": "size 2219 mtime 2026-11-12T14:37:51.7222771Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivity.class": "size 1656 mtime 2026-11-12T14:37:51.7579865Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivityKt$RugApp$3$4$1.class": "size 2796 mtime 2026-11-12T14:37:51.7739411Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivityKt$SuggestedCard$$inlined$sortedByDescending$1.class": "size 2691 mtime 2026-11-12T14:37:51.7689553Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivityKt$WhenMappings.class": "size 1046 mtime 2026-11-12T14:37:51.7759362Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivityKt.class": "size 132367 mtime 2026-11-12T14:37:51.7649667Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\Notice.class": "size 3018 mtime 2026-11-12T14:37:51.754993Z"
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\META-INF\\RUG.kotlin_module": "size 68 mtime 2026-11-12T15:30:27.4240679Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\AppPage.class": "size 2081 mtime 2026-11-12T15:30:27.2433193Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\AttendanceStatus.class": "size 2220 mtime 2026-11-12T15:30:27.2238526Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\AuthMode.class": "size 1777 mtime 2026-11-12T15:30:27.2278407Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\AvailabilityStatus.class": "size 2238 mtime 2026-11-12T15:30:27.2083916Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\Circle.class": "size 2757 mtime 2026-11-12T15:30:27.2744739Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\ComposableSingletons$MainActivityKt.class": "size 26255 mtime 2026-11-12T15:30:27.3303243Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\DateOption.class": "size 3671 mtime 2026-11-12T15:30:27.2453203Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\Gathering.class": "size 4620 mtime 2026-11-12T15:30:27.2864419Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\GatheringStatus.class": "size 2219 mtime 2026-11-12T15:30:27.2103868Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivity.class": "size 1656 mtime 2026-11-12T15:30:27.306389Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivityKt$RugApp$2$1$1$1.class": "size 2037 mtime 2026-11-12T15:30:27.4021264Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivityKt$RugApp$4$11$1.class": "size 2035 mtime 2026-11-12T15:30:27.4200794Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivityKt$RugApp$4$4$1.class": "size 2796 mtime 2026-11-12T15:30:27.407114Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivityKt$RugApp$4$9$1.class": "size 2033 mtime 2026-11-12T15:30:27.4101079Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivityKt$SuggestedCard$$inlined$sortedByDescending$1.class": "size 2691 mtime 2026-11-12T15:30:27.3991341Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivityKt$WhenMappings.class": "size 1046 mtime 2026-11-12T15:30:27.4220734Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\MainActivityKt.class": "size 138019 mtime 2026-11-12T15:30:27.3871715Z",
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\artifacts\\CompiledJvmArtifact\\RUGandroiddebug\\kotlin-output\\com\\jetbrains\\sample\\app\\Notice.class": "size 3018 mtime 2026-11-12T15:30:27.2934226Z"
     },
     "outputValues": {},
     "outputFiles": [
         "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_jarAndroidDebug\\RUG-jvm.jar"
     ],
     "outputFilesState": {
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_jarAndroidDebug\\RUG-jvm.jar": "size 70864 mtime 2026-11-12T14:37:55.2944659Z"
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_jarAndroidDebug\\RUG-jvm.jar": "size 75717 mtime 2026-11-12T15:30:29.377828Z"
     },
     "excludedOutputFiles": [],
     "dynamicInputs": {}

@@ -1,6 +1,7 @@
 package com.jetbrains.sample.app
 
 import android.os.Bundle
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.layout.Arrangement
@@ -112,9 +113,39 @@ private fun RugApp(onLogout: () -> Unit) {
     val notices = remember { mutableStateListOf(Notice("Dinner has 3 date options awaiting your response."), Notice("Welcome to R.U.G.")) }
     var gathering by remember { mutableStateOf(Gathering("Dinner", "Ariz", GatheringStatus.PROPOSED, demoOptions)) }
     var page by remember { mutableStateOf(AppPage.CIRCLES) }
+    val pageHistory = remember { mutableStateListOf<AppPage>() }
     var attendance by remember { mutableStateOf<AttendanceStatus?>(null) }
     val responses = remember { mutableStateMapOf<String, AvailabilityStatus>() }
     var message by remember { mutableStateOf<String?>(null) }
+
+    fun navigate(nextPage: AppPage) {
+        if (nextPage != page) {
+            pageHistory.add(page)
+            page = nextPage
+        }
+    }
+
+    fun navigateFromNavigation(nextPage: AppPage) {
+        pageHistory.clear()
+        page = nextPage
+    }
+
+    fun goBack() {
+        if (pageHistory.isNotEmpty()) {
+            page = pageHistory.removeAt(pageHistory.lastIndex)
+        }
+    }
+
+    fun finishPage(nextPage: AppPage) {
+        if (pageHistory.isNotEmpty()) {
+            pageHistory.removeAt(pageHistory.lastIndex)
+        }
+        page = nextPage
+    }
+
+    BackHandler(enabled = pageHistory.isNotEmpty()) {
+        goBack()
+    }
 
     fun submitAvailability() {
         if (gathering.status != GatheringStatus.PROPOSED) {
@@ -128,24 +159,36 @@ private fun RugApp(onLogout: () -> Unit) {
     }
 
     Scaffold(
-        topBar = { TopAppBar(title = { Text("R.U.G") }, actions = { TextButton(onLogout) { Text("Log out") } }) },
+        topBar = {
+            TopAppBar(
+                title = { Text("R.U.G") },
+                navigationIcon = {
+                    if (pageHistory.isNotEmpty()) {
+                        TextButton(onClick = ::goBack) {
+                            Text("‹ Back")
+                        }
+                    }
+                },
+                actions = { TextButton(onLogout) { Text("Log out") } },
+            )
+        },
         bottomBar = {
             NavigationBar {
-                TextButton({ page = AppPage.CIRCLES }) { Text("Circles") }
-                TextButton({ page = AppPage.GATHERING }) { Text("Gathering") }
-                TextButton({ page = AppPage.NOTIFICATIONS }) { Text("Alerts") }
-                TextButton({ page = AppPage.PROFILE }) { Text("Profile") }
+                TextButton({ navigateFromNavigation(AppPage.CIRCLES) }) { Text("Circles") }
+                TextButton({ navigateFromNavigation(AppPage.GATHERING) }) { Text("Gathering") }
+                TextButton({ navigateFromNavigation(AppPage.NOTIFICATIONS) }) { Text("Alerts") }
+                TextButton({ navigateFromNavigation(AppPage.PROFILE) }) { Text("Profile") }
             }
         },
     ) { insets ->
         when (page) {
-            AppPage.CIRCLES -> CirclePage(circles, { page = AppPage.CREATE_CIRCLE }, { page = AppPage.GATHERING })
-            AppPage.GATHERING -> GatheringPage(gathering, responses, attendance, message, { responses[it.first] = it.second; message = null }, ::submitAvailability, { page = AppPage.CREATE_GATHERING }, { page = AppPage.REVIEW }, { attendance = it }, insets)
+            AppPage.CIRCLES -> CirclePage(circles, { navigate(AppPage.CREATE_CIRCLE) }, { navigate(AppPage.GATHERING) })
+            AppPage.GATHERING -> GatheringPage(gathering, responses, attendance, message, { responses[it.first] = it.second; message = null }, ::submitAvailability, { navigate(AppPage.CREATE_GATHERING) }, { navigate(AppPage.REVIEW) }, { attendance = it }, insets)
             AppPage.NOTIFICATIONS -> NotificationPage(notices, insets)
             AppPage.PROFILE -> ProfilePage(onLogout, insets)
-            AppPage.CREATE_CIRCLE -> CreateCirclePage({ name -> circles.add(Circle(name, 1)); page = AppPage.CIRCLES }, { page = AppPage.CIRCLES }, insets)
-            AppPage.CREATE_GATHERING -> CreateGatheringPage({ title, options -> gathering = Gathering(title, "You", GatheringStatus.PROPOSED, options); page = AppPage.GATHERING }, { page = AppPage.GATHERING }, insets)
-            AppPage.REVIEW -> ReviewPage(gathering, { gathering = gathering.copy(status = GatheringStatus.FINALIZED); notices.add(0, Notice("${gathering.title} was finalized.")); page = AppPage.GATHERING }, { gathering = gathering.copy(status = GatheringStatus.CANCELLED); page = AppPage.GATHERING }, insets)
+            AppPage.CREATE_CIRCLE -> CreateCirclePage({ name -> circles.add(Circle(name, 1)); finishPage(AppPage.CIRCLES) }, ::goBack, insets)
+            AppPage.CREATE_GATHERING -> CreateGatheringPage({ title, options -> gathering = Gathering(title, "You", GatheringStatus.PROPOSED, options); finishPage(AppPage.GATHERING) }, ::goBack, insets)
+            AppPage.REVIEW -> ReviewPage(gathering, { gathering = gathering.copy(status = GatheringStatus.FINALIZED); notices.add(0, Notice("${gathering.title} was finalized.")); finishPage(AppPage.GATHERING) }, { gathering = gathering.copy(status = GatheringStatus.CANCELLED); finishPage(AppPage.GATHERING) }, insets)
         }
     }
 }
