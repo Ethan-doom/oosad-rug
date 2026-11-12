@@ -199,14 +199,14 @@
         "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\org\\jetbrains\\kotlinx\\kotlinx-coroutines-core-jvm\\1.9.0\\kotlinx-coroutines-core-jvm-1.9.0.jar": "size 1463587 mtime 2026-11-12T09:48:39.7949098Z",
         "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\org\\jetbrains\\kotlinx\\kotlinx-serialization-core-jvm\\1.7.3\\kotlinx-serialization-core-jvm-1.7.3.jar": "size 390987 mtime 2026-11-12T09:48:39.8328097Z",
         "C:\\Users\\emmpp\\AppData\\Local\\JetBrains\\Kotlin\\.m2.cache\\org\\jspecify\\jspecify\\1.0.0\\jspecify-1.0.0.jar": "size 3819 mtime 2026-11-12T09:48:39.7260931Z",
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_aarAndroidDebug\\RUG-jvm.aar": "size 52169 mtime 2026-11-12T13:58:27.9343082Z"
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_aarAndroidDebug\\RUG-jvm.aar": "size 68536 mtime 2026-11-12T14:37:55.3502759Z"
     },
     "outputValues": {},
     "outputFiles": [
         "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_buildAndroidDebug\\gradle-project\\build\\_kotlin-toolchain-android-root-app\\outputs\\apk\\debug\\gradle-project-debug.apk"
     ],
     "outputFilesState": {
-        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_buildAndroidDebug\\gradle-project\\build\\_kotlin-toolchain-android-root-app\\outputs\\apk\\debug\\gradle-project-debug.apk": "size 18635061 mtime 2026-11-12T13:59:41.52859Z"
+        "C:\\Users\\emmpp\\IdeaProjects\\RUG\\build\\tasks\\_RUG_buildAndroidDebug\\gradle-project\\build\\_kotlin-toolchain-android-root-app\\outputs\\apk\\debug\\gradle-project-debug.apk": "size 18654605 mtime 2026-11-12T14:48:56.8790246Z"
     },
     "excludedOutputFiles": [],
     "dynamicInputs": {}
