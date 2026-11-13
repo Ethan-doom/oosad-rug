@@ -1,5 +1,0 @@
-Kotlin Toolchain version 0.13.0 (abc7a5f, 2026-10-01)
-running on Windows 10 10.0 jvm arch amd64
-
-01:30.224 INFO  :RUG:buildAndroidDebug    Slf4jExtensionsKt         Gradle build started
-01:54.654 INFO  :RUG:buildAndroidDebug    Slf4jExtensionsKt         Gradle build finished successfully

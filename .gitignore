@@ -1,0 +1,9 @@
+# Kotlin/Android build output
+build/
+
+# IntelliJ local project state
+.idea/
+
+# Local SDK and tool caches
+.gradle/
+.kotlin/

@@ -52,6 +52,7 @@ private data class DateOption(val id: String, val date: String, val time: String
 private data class Circle(val name: String, val members: Int)
 private data class Gathering(val title: String, val organizer: String, val status: GatheringStatus, val options: List<DateOption>)
 private data class Notice(val message: String, var read: Boolean = false)
+private data class CircleInvitation(val circleName: String, val invitedBy: String, val members: Int)
 
 private val demoOptions = listOf(
     DateOption("fri", "Friday, November 6", "8:00 PM", 4),
@@ -110,6 +111,7 @@ private fun AuthScreen(onAuthenticated: () -> Unit) {
 @Composable
 private fun RugApp(onLogout: () -> Unit) {
     val circles = remember { mutableStateListOf(Circle("Team Ryzza", 7)) }
+    val invitations = remember { mutableStateListOf(CircleInvitation("Weekend Crew", "Mika", 5)) }
     val notices = remember { mutableStateListOf(Notice("Dinner has 3 date options awaiting your response."), Notice("Welcome to R.U.G.")) }
     var gathering by remember { mutableStateOf(Gathering("Dinner", "Ariz", GatheringStatus.PROPOSED, demoOptions)) }
     var page by remember { mutableStateOf(AppPage.CIRCLES) }
@@ -182,7 +184,17 @@ private fun RugApp(onLogout: () -> Unit) {
         },
     ) { insets ->
         when (page) {
-            AppPage.CIRCLES -> CirclePage(circles, { navigate(AppPage.CREATE_CIRCLE) }, { navigate(AppPage.GATHERING) })
+            AppPage.CIRCLES -> CirclePage(
+                circles = circles,
+                invitations = invitations,
+                create = { navigate(AppPage.CREATE_CIRCLE) },
+                openGathering = { navigate(AppPage.GATHERING) },
+                acceptInvitation = { invitation ->
+                    circles.add(Circle(invitation.circleName, invitation.members))
+                    invitations.remove(invitation)
+                    notices.add(0, Notice("You joined ${invitation.circleName}."))
+                },
+            )
             AppPage.GATHERING -> GatheringPage(gathering, responses, attendance, message, { responses[it.first] = it.second; message = null }, ::submitAvailability, { navigate(AppPage.CREATE_GATHERING) }, { navigate(AppPage.REVIEW) }, { attendance = it }, insets)
             AppPage.NOTIFICATIONS -> NotificationPage(notices, insets)
             AppPage.PROFILE -> ProfilePage(onLogout, insets)
@@ -194,8 +206,26 @@ private fun RugApp(onLogout: () -> Unit) {
 }
 
 @Composable
-private fun CirclePage(circles: List<Circle>, create: () -> Unit, openGathering: () -> Unit) {
+private fun CirclePage(
+    circles: List<Circle>,
+    invitations: List<CircleInvitation>,
+    create: () -> Unit,
+    openGathering: () -> Unit,
+    acceptInvitation: (CircleInvitation) -> Unit,
+) {
     AppColumn("Your Circles") {
+        if (invitations.isNotEmpty()) {
+            Text("Pending invitations", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            invitations.forEach { invitation ->
+                Card(Modifier.fillMaxWidth()) {
+                    Column(Modifier.padding(16.dp)) {
+                        Text(invitation.circleName, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                        Text("Invited by ${invitation.invitedBy} · ${invitation.members} members")
+                        Button({ acceptInvitation(invitation) }, Modifier.fillMaxWidth()) { Text("Accept Invitation") }
+                    }
+                }
+            }
+        }
         circles.forEach { circle ->
             Card(Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp)) {
                 Column(Modifier.padding(16.dp)) {
@@ -207,7 +237,6 @@ private fun CirclePage(circles: List<Circle>, create: () -> Unit, openGathering:
             }
         }
         Button(create, Modifier.fillMaxWidth()) { Text("Create Circle") }
-        OutlinedButton({}, Modifier.fillMaxWidth()) { Text("Accept Circle Invitation") }
     }
 }
 
